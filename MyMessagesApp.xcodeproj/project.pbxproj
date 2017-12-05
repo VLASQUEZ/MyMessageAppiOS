@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6094D7001FD71EDC00AF9541 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6094D6FF1FD71EDC00AF9541 /* audio.mp3 */; };
 		60C371491FD64FDC00FAAB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C371481FD64FDC00FAAB47 /* Assets.xcassets */; };
 		60C371501FD64FDC00FAAB47 /* MyMessagesApp MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 60C3714F1FD64FDC00FAAB47 /* MyMessagesApp MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		60C371551FD64FDC00FAAB47 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C371541FD64FDC00FAAB47 /* Messages.framework */; };
@@ -40,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6094D6FF1FD71EDC00AF9541 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		60C371451FD64FDC00FAAB47 /* MyMessagesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMessagesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C371481FD64FDC00FAAB47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60C3714A1FD64FDC00FAAB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		60C371561FD64FDC00FAAB47 /* MyMessagesApp MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				6094D6FF1FD71EDC00AF9541 /* audio.mp3 */,
 				60C371571FD64FDC00FAAB47 /* MessagesViewController.swift */,
 				60C371591FD64FDC00FAAB47 /* MainInterface.storyboard */,
 				60C3715C1FD64FDC00FAAB47 /* Assets.xcassets */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C3715D1FD64FDC00FAAB47 /* Assets.xcassets in Resources */,
+				6094D7001FD71EDC00AF9541 /* audio.mp3 in Resources */,
 				60C3715B1FD64FDC00FAAB47 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +384,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSQHMCBKSU;
 				INFOPLIST_FILE = MyMessagesApp/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vlasquez.MyMessagesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -394,6 +399,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSQHMCBKSU;
 				INFOPLIST_FILE = MyMessagesApp/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vlasquez.MyMessagesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

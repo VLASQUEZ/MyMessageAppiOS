@@ -11,6 +11,28 @@ import Messages
 
 class MessagesViewController: MSMessagesAppViewController {
     
+    @IBAction func sendGreetings(_ sender: Any) {
+       /* let message = "Hola! ¿Como estás?"
+        activeConversation?.insertText(message, completionHandler: nil)*/
+        /*let path = Bundle.main.url(forResource: "audio", withExtension: "mp3")
+        activeConversation?.insertAttachment(path!, withAlternateFilename: "Saludo", completionHandler: nil)*/
+        
+        let layout = MSMessageTemplateLayout.init()
+        layout.image = UIImage(named: "Nombre de la imagen")
+        layout.imageTitle = "Titulo de la imagen"
+        layout.imageSubtitle = "Subtitulo de la imagen"
+        layout.caption = "Ir a la web"
+        
+        layout.trailingCaption = "Alineado a la derecha"
+        layout.trailingSubcaption = "Alineado al subtitulo a la derecha"
+        layout.mediaFileURL = URL(string: "http://www.google.com")
+        
+        let message = MSMessage()
+        message.layout = layout
+        
+        activeConversation?.insert(message, completionHandler: nil)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
